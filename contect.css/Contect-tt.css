@@ -1,0 +1,77 @@
+.contect::after {
+  content: "";
+  background-image: url(../img/11.svg);
+  position: absolute;
+  opacity: 0.25;
+  height: 450px;
+  width: 100%;
+  padding: 10px;
+  z-index: -1;
+
+
+}
+
+
+
+.contect {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.form-input {
+
+  margin: 20px;
+  /* width: 50%; */
+
+
+}
+
+.form-input input {
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 25px;
+  z-index: -1;
+
+}
+
+textarea {
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: black;
+  font-weight: bold;
+
+}
+
+.btnn {
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid black;
+  color: white;
+  background-color: rgb(212, 109, 109);
+  margin: auto;
+  height: 30px;
+
+}
+
+.btnn:hover {
+  background-color: black;
+  color: white;
+}
+
+.buton {
+
+  margin-top: 20px;
+  margin-left: 90px;
+  width: 50%;
+  /* background-color: aqua; */
+}
+

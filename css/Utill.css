@@ -1,0 +1,40 @@
+:root { 
+    
+    --font1: "Baloo Bhaina 2", cursive;
+    --font2: "Roboto", sans-serif;
+  }
+
+
+
+
+.max-width1{
+    width: 80vw;
+}
+
+.max-width2{
+    width: 70vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.m-top-btoom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.m-top{
+    margin-top: 50px;
+}
+
+
+.font1 {
+    font-family: var(--font1);
+  }
+  .font2 {
+    font-family: var(--font2);
+  }
+  
+
+

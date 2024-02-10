@@ -1,0 +1,76 @@
+.img {
+    margin-top: 20px;
+    height: 404px;
+overflow: hidden;
+}
+
+.blog-more-read{
+    display: flex;
+    /* flex-direction: ; */
+}
+
+.Article-cont {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(106, 134, 134); */
+    text-align: center;
+}
+
+.blog-more-read1{
+    background-color: rgb(233, 226, 240);
+    margin-top: 25px;
+}
+
+.blog-head{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.icons{
+    /* background-color: aqua; */
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.icons-right{
+/* background-color: blueviolet; */
+width: 50%;
+height: 100px;
+text-align: right;
+
+}
+
+.about-aurthor{
+  
+    width: 50%;
+    height: 100px;
+   
+}
+
+.blog-cont h1{
+    /* background-color: aquamarine; */
+    text-align: center;
+    font-family: 'Baloo Bhaijaan 2';
+}
+
+.autDate{
+    margin-top: 0px;
+}
+
+.social{
+    padding-right: 53px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.blog-cont p{
+    font-size: 25px;
+}
+
+.blog-cont h1{
+    font-size: 40px;
+}
+

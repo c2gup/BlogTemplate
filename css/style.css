@@ -1,0 +1,171 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+
+
+
+/* Navagation  */
+.navagation {
+    /* background-color: rebeccapurple; */
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Baloo Bhaijaan 2';
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.navagation ul {
+    display: flex;
+    text-decoration: none;
+
+}
+
+.navagation ul li {
+    list-style: none;
+    padding-left: 30px;
+
+
+}
+
+.navagation ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.navagation ul li a:hover {
+    color: rgb(231, 92, 92);
+}
+
+ .navagation span {
+    color: burlywood;
+    font-size: 40px;
+    /* font-size: px; */
+}
+
+
+/*  Navagation ,  nav-left */
+.navagation nav-left {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*  Navagation ,  nav-right */
+.nav-right input {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav-left{
+    display: flex;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 80px;
+}
+
+.btn:hover {
+    background-color: rgb(231, 92, 92);
+    ;
+    color: white;
+    cursor: pointer;
+}
+
+/* Contant side */
+
+.content {
+    /* background-color: rgb(208, 242, 242); */
+    background-image: url(img/cont-bg.jpg);
+    height: 400px;
+    display: flex;
+    position: relative;
+
+
+}
+.content::after {
+    content: "";
+    background-image: url(../img/11.svg);
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+  }
+
+.cont-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.cont-right p {
+    color: black;
+    font-family: sans-serif;
+}
+
+.cont-right h1{
+    font-family: 'Baloo Bhaijaan 2';
+}
+
+.cont-left img {
+    border: 2px solid black;
+  
+    border-radius: 150px;
+}
+
+.cont-left{
+    display: flex;
+   align-items: center;
+}
+
+.line {
+    margin-top: 40px;
+}
+
+/* Articles side */
+
+.Articles-cont {
+    /* background-color: rgb(201, 245, 245); */
+}
+
+.Article-cont{
+    display: flex;
+    /* background-color: rgb(114, 84, 84); */
+}
+
+.Article-cont-dets{
+    padding-left: 15px;
+}
+
+.Article-cont-dets a{
+    text-decoration: none;
+    color: black;
+}
+
+.Article-cont-dets a:hover{
+  font-weight:bold ;
+  color: rgb(30, 137, 230);
+}
+
+/* Footer */
+footer{
+
+    height: 30px;
+    text-align: center;
+    background-color: rgb(170, 250, 250);
+
+
+}
